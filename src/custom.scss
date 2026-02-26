@@ -1,0 +1,9 @@
+$primary: rgb(224, 87, 56);// this is all todo, I have to figure out scss stuff :D
+$secondary: rgb(105, 186, 105);
+
+$theme-colors: ( 
+    "primary": $primary,
+);
+
+@use "../node_modules/bootstrap/scss/bootstrap";
+
