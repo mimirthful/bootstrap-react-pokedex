@@ -1,18 +1,11 @@
-# React + Vite
+# Pokedéx
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small simple Pokédex site, which uses pokeapi to fetch information about the pokémon.
+User can search pokémon by their name or their national ID. Found pokémon are saved on local cache, for faster usage and to limit unnecessary requests towards the API.
 
-Currently, two official plugins are available:
+The site has been build using React and bootstrap. Building it has teached me things relating to things like fetch, async, useEffect, localStorage and grid-based layouting.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+There's still things I may add to the project. Currently the amount of information that the site serves about the pokemon is limited. 
+I also wish to learn customizing SASS and to create bit more eye-friendly theme.
+I am also aware the site is lacking accessibility, which I want to change in the future.
 
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
