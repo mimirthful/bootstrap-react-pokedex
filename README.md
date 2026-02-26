@@ -9,3 +9,4 @@ There's still things I may add to the project. Currently the amount of informati
 I also wish to learn customizing SASS and to create bit more eye-friendly theme.
 I am also aware the site is lacking accessibility, which I want to change in the future.
 
+<img width="1090" height="927" alt="image" src="https://github.com/user-attachments/assets/21593ed3-982d-4b39-8271-94eb0130df7c" />
