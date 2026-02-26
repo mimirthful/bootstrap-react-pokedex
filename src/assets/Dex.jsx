@@ -3,6 +3,7 @@ import GetPokemon from "./GetPokemon";
 import DataContainer from "./DataCardGrid";
 import PokemonData from "./PokemonData";
 import ErrorDisplay from "./ErrorDisplay";
+import placeholder from "../assets/placeholder.png"
 
 export default function Dex({request}) {
 
@@ -53,7 +54,7 @@ export default function Dex({request}) {
 
     return <> 
     <div className="d-flex flex-column align-items-center justify-content-center" style={{ minHeight: "25vh" }}>
-    {isEmpty && <img className="mx-auto d-block" src="src/assets/placeholder.png"/>}
+    {isEmpty && <img className="mx-auto d-block" src={placeholder}/>}
     {errorText && <ErrorDisplay errorText={errorText}/>}
     {pokemon && <DataContainer data={pokemon}/>}
     </div>

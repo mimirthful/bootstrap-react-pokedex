@@ -10,7 +10,7 @@ return <>
             <ImageCard image={data.sprite}/>
             <div className="col-sm-5 col-lg-12 col-xxl-5"> 
                 <TitleCard 
-                    dexNumber={data.dexNumber}
+                    dexNumber={`#${data.dexNumber}`}
                     name={data.name}
                     genus={data.genus}/>
             </div>
@@ -24,11 +24,11 @@ return <>
 
         <div className="row p-2"> 
             <div className="col-sm"> 
-                <DataCard header="Height" body={data.height}/>
+                <DataCard header="Height" body={`${data.height} cm`}/>
             </div>
 
             <div className="col-sm"> 
-                <DataCard header="Weight" body={data.weight}/>
+                <DataCard header="Weight" body={`${data.weight} kg`}/>
             </div>
         </div>
     </div>
